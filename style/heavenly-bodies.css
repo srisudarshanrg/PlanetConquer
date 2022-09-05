@@ -1,0 +1,175 @@
+body {
+  background-color: rgb(233, 200, 55);
+  padding-bottom: 25px;
+}
+
+/* navbar */
+.nav {
+  border-radius: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.stuff {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.brand a {
+  text-decoration: none;
+  color: #000;
+}
+
+.brand img,
+.brand h2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.info-link ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  margin-top: 33px;
+  margin-left: 130px;
+}
+
+ul li {
+  margin-left: 65px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li a:hover,
+.brand h2:hover {
+  color: blueviolet;
+}
+
+/* intro */
+.intro {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 65px;
+  color: blueviolet;
+}
+
+.intro img {
+  -webkit-box-shadow: 0 0 30px #000;
+  box-shadow: 0 0 30px #000;
+  border-radius: 40px;
+  margin-top: 35px;
+  width: 40%;
+  height: 50vh;
+}
+
+/* layout */
+.layout-help {
+  background-color: #fff;
+  text-align: left;
+  font-family: 'Domine', sans-serif;
+  margin-top: 50px;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.layout-help a {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  color: blueviolet;
+  font-family: 'Poppins', sans-serif;
+}
+
+.layout-help a:hover {
+  color: blue;
+}
+
+/* solar-system */
+#solar-system {
+  background-color: rgb(244, 247, 95);
+  padding: 25px;
+  margin-top: 35px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ss-intro {
+  text-align: center;
+}
+
+sup {
+  color: blue;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* mercury */
+.mercury {
+  padding-top: 25px;
+  text-align: left;
+}
+
+.mercury img {
+  width: 40%;
+  -webkit-box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px #000;
+  border-radius: 25px;
+}
+
+/* venus */
+.venus {
+  padding-top: 35px;
+  text-align: left;
+}
+
+.venus img {
+  width: 41.5%;
+  -webkit-box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px #000;
+  border-radius: 25px;
+}
+
+/* earth */
+.earth {
+  padding-top: 35px;
+}
+
+.earth img {
+  width: 40%;
+  -webkit-box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px #000;
+  border-radius: 25px;
+}
+
+/* mars */
+.mars {
+  padding-top: 35px;
+}
+
+.mars img {
+  width: 40%;
+  -webkit-box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px #000;
+  border-radius: 25px;
+}
+
+/* jupiter */
+.jupiter {
+  padding-top: 35px;
+}
+
+.jupiter img {
+  width: 40%;
+  -webkit-box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px #000;
+  border-radius: 25px;
+}

@@ -1,0 +1,188 @@
+body {
+  background-color: rgb(233, 200, 55);
+}
+
+.nav {
+  border-radius: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.stuff {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.brand a {
+  text-decoration: none;
+  color: #000;
+}
+
+.brand img,
+.brand h2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.info-link ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  margin-top: 33px;
+  margin-left: 130px;
+}
+
+ul li {
+  margin-left: 65px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li a:hover,
+.brand h2:hover {
+  color: blueviolet;
+}
+
+/* welcome */
+.intro {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  margin-top: 60px;
+  text-align: left;
+}
+
+.text h3 {
+  font-size: 1.4rem;
+}
+
+.win,
+.ios {
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.win {
+  background-color: rgb(114, 214, 247);
+}
+
+.ios {
+  background-color: rgb(247, 15, 15);
+  margin-left: 15px;
+}
+
+.win:hover {
+  background-color: rgb(192, 248, 255);
+}
+
+.ios:hover {
+  background-color: rgb(238, 88, 88);
+}
+
+/* topics */
+.topic {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  padding-bottom: 45px;
+}
+
+/* topics */
+
+.topic h1 {
+  color: orange;
+}
+
+.heavenly-bodies,
+.galaxies,
+.blogs {
+  background-color: darkgrey;
+  border-radius: 25px;
+  color: #fff;
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+header {
+  background-color: lightgrey;
+  color: #000;
+  border-radius: 15px;
+  font-size: 1.3rem;
+}
+
+.leader-btn {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(233, 200, 55);
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: 600;
+  color: #000;
+}
+
+.leader-btn:hover {
+  background-color: orange;
+}
+
+.topic img {
+  width: 80%;
+  border-radius: 15px;
+}
+
+/* bottom */
+.decorate-bottom-container {
+  padding: 5px;
+  background-color: rgb(233, 93, 13);
+}
+
+.bottom {
+  background-color: orange;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bottom h2 {
+  font-family: 'Montserrat Alternates';
+}
+
+.bottom ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 415px;
+  font-size: 1.2rem;
+}
+
+.bottom ul a {
+  color: red;
+}
+
+.bottom ul a:hover {
+  color: blueviolet;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
